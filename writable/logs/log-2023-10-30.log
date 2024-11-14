@@ -1,0 +1,11 @@
+CRITICAL - 2023-10-30 04:12:48 --> Undefined variable $compData
+in APPPATH\Views\admin\detail-provision.php on line 157.
+ 1 APPPATH\Views\admin\detail-provision.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $compData', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\detail-provision.php', 157)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\detail-provision.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/detail-provision', [], true)
+ 5 APPPATH\Controllers\AdminController.php(127): view('admin/detail-provision', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->viewprovisiondetail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

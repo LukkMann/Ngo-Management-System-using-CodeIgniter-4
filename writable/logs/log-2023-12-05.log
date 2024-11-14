@@ -1,0 +1,22 @@
+CRITICAL - 2023-12-05 13:16:45 --> Undefined array key "created_at"
+in APPPATH\Views\user\statusform.php on line 214.
+ 1 APPPATH\Views\user\statusform.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "created_at"', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\user\\statusform.php', 214)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\user\\statusform.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/statusform', [], true)
+ 5 APPPATH\Controllers\UserController.php(456): view('user/statusform', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->statuspage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-05 13:16:46 --> Undefined array key "created_at"
+in APPPATH\Views\user\statusform.php on line 214.
+ 1 APPPATH\Views\user\statusform.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "created_at"', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\user\\statusform.php', 214)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\user\\statusform.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/statusform', [], true)
+ 5 APPPATH\Controllers\UserController.php(456): view('user/statusform', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->statuspage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

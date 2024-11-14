@@ -1,0 +1,204 @@
+ERROR - 2023-11-28 14:35:46 --> mysqli_sql_exception: Unknown column 'donation_date' in 'field list' in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `su...', 0)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 C:\xampp\htdocs\projectfyp\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\projectfyp\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\projectfyp\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\projectfyp\app\Controllers\IndexController.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(919): App\Controllers\IndexController->donateProcess()
+#9 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+#10 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-28 14:35:46 --> Unknown column 'donation_date' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sumbangan` (`nama`, `nilai`, `donation_date`) VALUES (:nama:, :nilai:, :donation_date:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\IndexController.php(43): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\IndexController->donateProcess()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-28 14:36:10 --> mysqli_sql_exception: Unknown column 'donation_date' in 'field list' in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `su...', 0)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 C:\xampp\htdocs\projectfyp\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\projectfyp\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\projectfyp\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\projectfyp\app\Controllers\IndexController.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(919): App\Controllers\IndexController->donateProcess()
+#9 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+#10 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-28 14:36:10 --> Unknown column 'donation_date' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sumbangan` (`nama`, `nilai`, `donation_date`) VALUES (:nama:, :nilai:, :donation_date:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\IndexController.php(43): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\IndexController->donateProcess()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-28 14:46:24 --> mysqli_sql_exception: Unknown column 'donation_date' in 'field list' in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `su...', 0)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 C:\xampp\htdocs\projectfyp\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\projectfyp\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\projectfyp\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\projectfyp\app\Controllers\IndexController.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(919): App\Controllers\IndexController->donateProcess()
+#9 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+#10 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-28 14:46:24 --> Unknown column 'donation_date' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sumbangan` (`nama`, `nilai`, `donation_date`) VALUES (:nama:, :nilai:, :donation_date:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\IndexController.php(43): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\IndexController->donateProcess()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-28 15:27:46 --> mysqli_sql_exception: Unknown column 'donation_date' in 'field list' in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `su...', 0)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 C:\xampp\htdocs\projectfyp\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\projectfyp\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\projectfyp\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\projectfyp\app\Controllers\IndexController.php(46): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(919): App\Controllers\IndexController->donateProcess()
+#9 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+#10 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-28 15:27:46 --> Unknown column 'donation_date' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sumbangan` (`nama`, `email`, `ic`, `phone_number`, `nilai`, `donation_date`) VALUES (:nama:, :email:, :ic:, :phone_number:, :nilai:, :donation_date:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\IndexController.php(46): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\IndexController->donateProcess()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 15:55:35 --> Class "App\Controllers\Mpdf" not found
+in APPPATH\Controllers\IndexController.php on line 77.
+ 1 APPPATH\Controllers\IndexController.php(57): App\Controllers\IndexController->generateReceipt([...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\IndexController->donateProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 16:06:57 --> require_once(C:\xampp\htdocs\projectfyp\app\ThirdParty/mpdf/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\IndexController.php on line 77.
+ 1 APPPATH\Controllers\IndexController.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\projectfyp\\app\\ThirdParty/mpdf/vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\IndexController.php', 77)
+ 2 APPPATH\Controllers\IndexController.php(77): require_once()
+ 3 APPPATH\Controllers\IndexController.php(57): App\Controllers\IndexController->generateReceipt([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\IndexController->donateProcess()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 16:07:50 --> Trait "Mpdf\Strict" not found
+in APPPATH\ThirdParty\mpdf\src\Mpdf.php on line 29.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-28 16:12:46 --> Trait "Mpdf\Mpdf\Strict" not found
+in APPPATH\ThirdParty\mpdf\src\Mpdf.php on line 29.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-28 16:14:03 --> Trait "Mpdf\Strict" not found
+in APPPATH\ThirdParty\mpdf\src\Mpdf.php on line 30.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-28 16:20:58 --> require_once(C:\xampp\htdocs\projectfyp\app\ThirdParty/dompdf/autoload.inc.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\IndexController.php on line 78.
+ 1 APPPATH\Controllers\IndexController.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\projectfyp\\app\\ThirdParty/dompdf/autoload.inc.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\IndexController.php', 78)
+ 2 APPPATH\Controllers\IndexController.php(78): require_once()
+ 3 APPPATH\Controllers\IndexController.php(57): App\Controllers\IndexController->generateReceipt([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\IndexController->donateProcess()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 16:25:48 --> require_once(C:\xampp\htdocs\projectfyp\app\ThirdParty/dompdf/src/Text.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\IndexController.php on line 82.
+ 1 APPPATH\Controllers\IndexController.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\projectfyp\\app\\ThirdParty/dompdf/src/Text.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\IndexController.php', 82)
+ 2 APPPATH\Controllers\IndexController.php(82): require_once()
+ 3 APPPATH\Controllers\IndexController.php(57): App\Controllers\IndexController->generateReceipt([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\IndexController->donateProcess()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 16:28:09 --> require_once(C:\xampp\htdocs\projectfyp\app\ThirdParty/dompdf/src/Autoloader.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\IndexController.php on line 82.
+ 1 APPPATH\Controllers\IndexController.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\projectfyp\\app\\ThirdParty/dompdf/src/Autoloader.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\IndexController.php', 82)
+ 2 APPPATH\Controllers\IndexController.php(82): require_once()
+ 3 APPPATH\Controllers\IndexController.php(57): App\Controllers\IndexController->generateReceipt([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\IndexController->donateProcess()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 16:28:22 --> Class "Dompdf\Autoloader" not found
+in APPPATH\Controllers\IndexController.php on line 84.
+ 1 APPPATH\Controllers\IndexController.php(57): App\Controllers\IndexController->generateReceipt([...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\IndexController->donateProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 17:03:07 --> Invalid file: "receipt.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('receipt.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('receipt', [], true)
+ 3 APPPATH\Controllers\IndexController.php(70): view('receipt', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\IndexController->receipt()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 17:06:18 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\projectfyp\app\Controllers\IndexController.php on line 70
+in SYSTEMPATH\Common.php on line 1176.
+ 1 APPPATH\Controllers\IndexController.php(70): view('receipt', null)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\IndexController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 17:12:53 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\projectfyp\app\Controllers\IndexController.php on line 74
+in SYSTEMPATH\Common.php on line 1176.
+ 1 APPPATH\Controllers\IndexController.php(74): view('receipt', null)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\IndexController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 17:13:17 --> Undefined variable $nilai
+in APPPATH\Views\receipt.php on line 57.
+ 1 APPPATH\Views\receipt.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nilai', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\receipt.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\receipt.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('receipt', [], true)
+ 5 APPPATH\Controllers\IndexController.php(74): view('receipt', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\IndexController->receipt()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 17:13:25 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\projectfyp\app\Controllers\IndexController.php on line 74
+in SYSTEMPATH\Common.php on line 1176.
+ 1 APPPATH\Controllers\IndexController.php(74): view('receipt', null)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\IndexController->receipt()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

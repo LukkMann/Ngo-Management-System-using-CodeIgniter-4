@@ -1,0 +1,34 @@
+CRITICAL - 2023-11-03 04:02:37 --> Undefined variable $user
+in APPPATH\Controllers\AdminController.php on line 81.
+ 1 APPPATH\Controllers\AdminController.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->editUserProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 04:21:55 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdminController.php(77): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->editUserProcess()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 04:38:22 --> Undefined variable $user
+in APPPATH\Views\admin\computer-list.php on line 220.
+ 1 APPPATH\Views\admin\computer-list.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\computer-list.php', 220)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\computer-list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/computer-list', [], true)
+ 5 APPPATH\Controllers\AdminController.php(168): view('admin/computer-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->computerlist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 04:49:38 --> Undefined variable $duit_pe
+in APPPATH\Controllers\AdminController.php on line 262.
+ 1 APPPATH\Controllers\AdminController.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duit_pe', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php', 262)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->editProvisionProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

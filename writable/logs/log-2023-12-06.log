@@ -1,0 +1,36 @@
+CRITICAL - 2023-12-06 15:08:41 --> Undefined variable $full_name
+in APPPATH\Controllers\UserController.php on line 147.
+ 1 APPPATH\Controllers\UserController.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $full_name', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\UserController.php', 147)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->editAsnafProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 15:09:13 --> Undefined variable $full_name
+in APPPATH\Controllers\UserController.php on line 147.
+ 1 APPPATH\Controllers\UserController.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $full_name', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\UserController.php', 147)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->editAsnafProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 15:33:51 --> Undefined variable $asnaf
+in APPPATH\Views\admin\user-list.php on line 258.
+ 1 APPPATH\Views\admin\user-list.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $asnaf', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\user-list.php', 258)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\user-list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/user-list', [], true)
+ 5 APPPATH\Controllers\AdminController.php(178): view('admin/user-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->userlist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 15:33:51 --> Undefined variable $asnaf
+in APPPATH\Views\admin\user-list.php on line 258.
+ 1 APPPATH\Views\admin\user-list.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $asnaf', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\user-list.php', 258)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\user-list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/user-list', [], true)
+ 5 APPPATH\Controllers\AdminController.php(178): view('admin/user-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->userlist()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

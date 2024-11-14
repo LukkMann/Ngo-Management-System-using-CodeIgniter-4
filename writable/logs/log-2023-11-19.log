@@ -1,0 +1,53 @@
+CRITICAL - 2023-11-19 07:29:04 --> syntax error, unexpected token ";"
+in APPPATH\Views\admin\adminhome.php on line 289.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 3 APPPATH\Controllers\AdminController.php(40): view('admin/adminhome', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-19 07:29:05 --> syntax error, unexpected token ";"
+in APPPATH\Views\admin\adminhome.php on line 289.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 3 APPPATH\Controllers\AdminController.php(40): view('admin/adminhome', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-19 07:41:42 --> mysqli_sql_exception: Unknown column 'status' in 'where clause' in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\projectfyp\system\Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\projectfyp\app\Controllers\AdminController.php(40): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+#7 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-19 07:41:42 --> Unknown column 'status' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `asnaf`
+WHERE `status` = :status:', [...], false)
+ 2 SYSTEMPATH\Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Controllers\AdminController.php(40): CodeIgniter\Model->countAllResults()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-19 07:42:14 --> Undefined array key "rejected"
+in APPPATH\Views\admin\adminhome.php on line 294.
+ 1 APPPATH\Views\admin\adminhome.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rejected"', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 294)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(58): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

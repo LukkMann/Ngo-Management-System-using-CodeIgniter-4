@@ -1,0 +1,45 @@
+CRITICAL - 2023-12-09 06:24:29 --> syntax error, unexpected token "endif"
+in APPPATH\Views\user\statusform.php on line 194.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/statusform', [], true)
+ 3 APPPATH\Controllers\UserController.php(455): view('user/statusform', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->statuspage()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 06:24:31 --> syntax error, unexpected token "endif"
+in APPPATH\Views\user\statusform.php on line 194.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/statusform', [], true)
+ 3 APPPATH\Controllers\UserController.php(455): view('user/statusform', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->statuspage()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 06:24:31 --> syntax error, unexpected token "endif"
+in APPPATH\Views\user\statusform.php on line 194.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/statusform', [], true)
+ 3 APPPATH\Controllers\UserController.php(455): view('user/statusform', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->statuspage()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 06:25:50 --> syntax error, unexpected token "else"
+in APPPATH\Views\user\statusform.php on line 208.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/statusform', [], true)
+ 3 APPPATH\Controllers\UserController.php(455): view('user/statusform', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->statuspage()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 06:40:41 --> syntax error, unexpected token "endif"
+in APPPATH\Views\user\statusform.php on line 194.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/statusform', [], true)
+ 3 APPPATH\Controllers\UserController.php(455): view('user/statusform', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->statuspage()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,782 @@
+ERROR - 2023-11-20 05:30:34 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'test_yayasan', 3306, '', 0)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-us...', 'before')
+#9 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#5 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#6 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-us...', 'before')
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-20 05:30:34 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user`.`user_id` = :user.user_id:', [...], false)
+ 3 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+ 6 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-user', 'before')
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 05:30:39 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'test_yayasan', 3306, '', 0)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-us...', 'before')
+#9 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#5 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#6 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-us...', 'before')
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-20 05:30:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user`.`user_id` = :user.user_id:', [...], false)
+ 3 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+ 6 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-user', 'before')
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 05:30:43 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'test_yayasan', 3306, '', 0)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-us...', 'before')
+#9 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#5 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#6 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-us...', 'before')
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-20 05:30:43 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user`.`user_id` = :user.user_id:', [...], false)
+ 3 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+ 6 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-user', 'before')
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 05:30:47 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'test_yayasan', 3306, '', 0)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-us...', 'before')
+#9 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#5 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#6 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-us...', 'before')
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-20 05:30:47 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user`.`user_id` = :user.user_id:', [...], false)
+ 3 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+ 6 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-user', 'before')
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 05:30:51 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'test_yayasan', 3306, '', 0)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-us...', 'before')
+#9 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#5 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#6 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-us...', 'before')
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-20 05:30:51 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user`.`user_id` = :user.user_id:', [...], false)
+ 3 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+ 6 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-user', 'before')
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 05:30:55 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'test_yayasan', 3306, '', 0)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-us...', 'before')
+#9 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#5 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#6 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-us...', 'before')
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-20 05:30:55 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user`.`user_id` = :user.user_id:', [...], false)
+ 3 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+ 6 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-user', 'before')
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 05:30:59 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'test_yayasan', 3306, '', 0)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-us...', 'before')
+#9 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#5 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#6 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-us...', 'before')
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-20 05:30:59 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user`.`user_id` = :user.user_id:', [...], false)
+ 3 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+ 6 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-user', 'before')
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 05:31:03 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'test_yayasan', 3306, '', 0)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-us...', 'before')
+#9 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#5 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#6 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-us...', 'before')
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-20 05:31:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user`.`user_id` = :user.user_id:', [...], false)
+ 3 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+ 6 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-user', 'before')
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 05:31:07 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'test_yayasan', 3306, '', 0)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-as...', 'before')
+#9 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#5 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#6 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-as...', 'before')
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-20 05:31:07 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user`.`user_id` = :user.user_id:', [...], false)
+ 3 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+ 6 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-asnaf', 'before')
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 05:31:12 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'test_yayasan', 3306, '', 0)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-as...', 'before')
+#9 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#5 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#6 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-as...', 'before')
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-20 05:31:12 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user`.`user_id` = :user.user_id:', [...], false)
+ 3 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+ 6 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-asnaf', 'before')
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 05:31:16 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'test_yayasan', 3306, '', 0)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-as...', 'before')
+#9 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#5 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#6 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-as...', 'before')
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-20 05:31:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user`.`user_id` = :user.user_id:', [...], false)
+ 3 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+ 6 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-asnaf', 'before')
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 05:31:20 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'test_yayasan', 3306, '', 0)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/asnaf-lis...', 'before')
+#9 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#5 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#6 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/asnaf-lis...', 'before')
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-20 05:31:20 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user`.`user_id` = :user.user_id:', [...], false)
+ 3 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+ 6 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/asnaf-list', 'before')
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 05:31:24 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'test_yayasan', 3306, '', 0)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/user-list', 'before')
+#9 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#5 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#6 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/user-list', 'before')
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-20 05:31:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user`.`user_id` = :user.user_id:', [...], false)
+ 3 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+ 6 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/user-list', 'before')
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 05:31:28 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'test_yayasan', 3306, '', 0)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-us...', 'before')
+#9 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#5 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#6 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-us...', 'before')
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-20 05:31:28 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user`.`user_id` = :user.user_id:', [...], false)
+ 3 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+ 6 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/search-user', 'before')
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 05:31:32 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'test_yayasan', 3306, '', 0)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/adminhome', 'before')
+#9 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#5 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#6 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/adminhome', 'before')
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-20 05:31:32 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user`.`user_id` = :user.user_id:', [...], false)
+ 3 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+ 6 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/adminhome', 'before')
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 05:31:36 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'test_yayasan', 3306, '', 0)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/adminhome', 'before')
+#9 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#5 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#6 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/adminhome', 'before')
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-20 05:31:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user`.`user_id` = :user.user_id:', [...], false)
+ 3 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+ 6 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/adminhome', 'before')
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 05:31:40 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'test_yayasan', 3306, '', 0)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/adminhome', 'before')
+#9 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#5 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#6 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/adminhome', 'before')
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-20 05:31:40 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user`.`user_id` = :user.user_id:', [...], false)
+ 3 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+ 6 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/adminhome', 'before')
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 05:31:44 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'test_yayasan', 3306, '', 0)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/adminhome', 'before')
+#9 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\projectfyp\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\projectfyp\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#5 C:\xampp\htdocs\projectfyp\app\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+#6 C:\xampp\htdocs\projectfyp\system\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/adminhome', 'before')
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-20 05:31:44 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user`.`user_id` = :user.user_id:', [...], false)
+ 3 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH\Filters\AdminAuth.php(17): CodeIgniter\BaseModel->find('1')
+ 6 SYSTEMPATH\Filters\Filters.php(180): App\Filters\AdminAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('admin/adminhome', 'before')
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 05:43:35 --> mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `su...', 0)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 C:\xampp\htdocs\projectfyp\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\projectfyp\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\projectfyp\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\projectfyp\app\Controllers\IndexController.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(919): App\Controllers\IndexController->donateProcess()
+#9 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+#10 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-20 05:43:35 --> Unknown column 'user_id' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sumbangan` (`nama`, `nilai`, `user_id`) VALUES (:nama:, :nilai:, :user_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\IndexController.php(43): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\IndexController->donateProcess()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

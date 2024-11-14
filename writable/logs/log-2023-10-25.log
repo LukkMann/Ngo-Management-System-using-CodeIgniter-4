@@ -1,0 +1,84 @@
+CRITICAL - 2023-10-25 03:11:52 --> Too few arguments to function App\Controllers\UserController::viewProfile(), 0 passed in C:\xampp\htdocs\projectfyp\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\UserController.php on line 232.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->viewProfile()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 03:12:13 --> Too few arguments to function App\Controllers\UserController::viewProfile(), 0 passed in C:\xampp\htdocs\projectfyp\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\UserController.php on line 232.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->viewProfile()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 03:16:19 --> Too few arguments to function App\Controllers\UserController::viewProfile(), 0 passed in C:\xampp\htdocs\projectfyp\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\UserController.php on line 232.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->viewProfile()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 14:06:52 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\statusform.php on line 156.
+ 1 APPPATH\Views\user\statusform.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\user\\statusform.php', 156)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\user\\statusform.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/statusform', [], true)
+ 5 APPPATH\Controllers\UserController.php(237): view('user/statusform', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->statuspage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 14:07:30 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\statusform.php on line 156.
+ 1 APPPATH\Views\user\statusform.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\user\\statusform.php', 156)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\user\\statusform.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/statusform', [], true)
+ 5 APPPATH\Controllers\UserController.php(237): view('user/statusform', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->statuspage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 14:13:02 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\statusform.php on line 156.
+ 1 APPPATH\Views\user\statusform.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\user\\statusform.php', 156)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\user\\statusform.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/statusform', [], true)
+ 5 APPPATH\Controllers\UserController.php(237): view('user/statusform', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->statuspage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 14:18:55 --> Trying to access array offset on value of type null
+in APPPATH\Views\user\statusform.php on line 156.
+ 1 APPPATH\Views\user\statusform.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\user\\statusform.php', 156)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\user\\statusform.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/statusform', [], true)
+ 5 APPPATH\Controllers\UserController.php(237): view('user/statusform', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->statuspage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 14:21:58 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\user\statusform.php on line 155.
+ 1 APPPATH\Views\user\statusform.php(155): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\user\\statusform.php', 155)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\user\\statusform.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/statusform', [], true)
+ 5 APPPATH\Controllers\UserController.php(237): view('user/statusform', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->statuspage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 14:36:55 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\user\statusform.php on line 165.
+ 1 APPPATH\Views\user\statusform.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\user\\statusform.php', 165)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\user\\statusform.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/statusform', [], true)
+ 5 APPPATH\Controllers\UserController.php(237): view('user/statusform', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->statuspage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

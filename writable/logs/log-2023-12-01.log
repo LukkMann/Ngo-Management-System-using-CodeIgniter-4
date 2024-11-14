@@ -1,0 +1,884 @@
+CRITICAL - 2023-12-01 04:05:42 --> Cannot redeclare App\Controllers\AdminController::searchuser()
+in APPPATH\Controllers\AdminController.php on line 491.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-01 04:17:22 --> Undefined variable $user
+in APPPATH\Views\admin\search-donation.php on line 207.
+ 1 APPPATH\Views\admin\search-donation.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\search-donation.php', 207)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\search-donation.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/search-donation', [], true)
+ 5 APPPATH\Controllers\AdminController.php(511): view('admin/search-donation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->searchdonation()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 04:48:46 --> syntax error, unexpected token "=>"
+in APPPATH\Controllers\AdminController.php on line 503.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 04:48:56 --> syntax error, unexpected token ","
+in APPPATH\Controllers\AdminController.php on line 503.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 04:52:39 --> Array to string conversion
+in APPPATH\Views\admin\search-donation.php on line 186.
+ 1 APPPATH\Views\admin\search-donation.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\search-donation.php', 186)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\search-donation.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/search-donation', [], true)
+ 5 APPPATH\Controllers\AdminController.php(512): view('admin/search-donation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->searchdonation()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:50:18 --> Undefined property: App\Controllers\AdminController::$userModel
+in APPPATH\Controllers\AdminController.php on line 29.
+ 1 APPPATH\Controllers\AdminController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminController::$userModel', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:54:47 --> Object of class App\Models\UserModel could not be converted to string
+in APPPATH\Controllers\AdminController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:54:50 --> Object of class App\Models\UserModel could not be converted to string
+in APPPATH\Controllers\AdminController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:54:50 --> Object of class App\Models\UserModel could not be converted to string
+in APPPATH\Controllers\AdminController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:54:50 --> Object of class App\Models\UserModel could not be converted to string
+in APPPATH\Controllers\AdminController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:54:50 --> Object of class App\Models\UserModel could not be converted to string
+in APPPATH\Controllers\AdminController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:54:51 --> Object of class App\Models\UserModel could not be converted to string
+in APPPATH\Controllers\AdminController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:54:51 --> Object of class App\Models\UserModel could not be converted to string
+in APPPATH\Controllers\AdminController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:54:51 --> Object of class App\Models\UserModel could not be converted to string
+in APPPATH\Controllers\AdminController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:54:51 --> Object of class App\Models\UserModel could not be converted to string
+in APPPATH\Controllers\AdminController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:54:51 --> Object of class App\Models\UserModel could not be converted to string
+in APPPATH\Controllers\AdminController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:54:52 --> Object of class App\Models\UserModel could not be converted to string
+in APPPATH\Controllers\AdminController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:54:52 --> Object of class App\Models\UserModel could not be converted to string
+in APPPATH\Controllers\AdminController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:54:52 --> Object of class App\Models\UserModel could not be converted to string
+in APPPATH\Controllers\AdminController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:54:52 --> Object of class App\Models\UserModel could not be converted to string
+in APPPATH\Controllers\AdminController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:54:52 --> Object of class App\Models\UserModel could not be converted to string
+in APPPATH\Controllers\AdminController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:54:53 --> Object of class App\Models\UserModel could not be converted to string
+in APPPATH\Controllers\AdminController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:54:59 --> Undefined variable $userCounts
+in APPPATH\Views\admin\adminhome.php on line 31.
+ 1 APPPATH\Views\admin\adminhome.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCounts', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(77): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:55:00 --> Undefined variable $userCounts
+in APPPATH\Views\admin\adminhome.php on line 31.
+ 1 APPPATH\Views\admin\adminhome.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCounts', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(77): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:55:00 --> Undefined variable $userCounts
+in APPPATH\Views\admin\adminhome.php on line 31.
+ 1 APPPATH\Views\admin\adminhome.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCounts', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(77): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:55:00 --> Undefined variable $userCounts
+in APPPATH\Views\admin\adminhome.php on line 31.
+ 1 APPPATH\Views\admin\adminhome.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCounts', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(77): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:55:01 --> Undefined variable $userCounts
+in APPPATH\Views\admin\adminhome.php on line 31.
+ 1 APPPATH\Views\admin\adminhome.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCounts', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(77): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:55:01 --> Undefined variable $userCounts
+in APPPATH\Views\admin\adminhome.php on line 31.
+ 1 APPPATH\Views\admin\adminhome.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCounts', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(77): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:56:48 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\AdminController.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:56:49 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\AdminController.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:56:49 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\AdminController.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:57:22 --> syntax error, unexpected token "=", expecting "]"
+in APPPATH\Controllers\AdminController.php on line 36.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:57:23 --> syntax error, unexpected token "=", expecting "]"
+in APPPATH\Controllers\AdminController.php on line 36.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:57:23 --> syntax error, unexpected token "=", expecting "]"
+in APPPATH\Controllers\AdminController.php on line 36.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:57:42 --> Undefined variable $userCounts
+in APPPATH\Controllers\AdminController.php on line 31.
+ 1 APPPATH\Controllers\AdminController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCounts', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:57:42 --> Undefined variable $userCounts
+in APPPATH\Controllers\AdminController.php on line 31.
+ 1 APPPATH\Controllers\AdminController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCounts', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:57:43 --> Undefined variable $userCounts
+in APPPATH\Controllers\AdminController.php on line 31.
+ 1 APPPATH\Controllers\AdminController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCounts', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:57:43 --> Undefined variable $userCounts
+in APPPATH\Controllers\AdminController.php on line 31.
+ 1 APPPATH\Controllers\AdminController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCounts', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:57:43 --> Undefined variable $userCounts
+in APPPATH\Controllers\AdminController.php on line 31.
+ 1 APPPATH\Controllers\AdminController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCounts', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:57:43 --> Undefined variable $userCounts
+in APPPATH\Controllers\AdminController.php on line 31.
+ 1 APPPATH\Controllers\AdminController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCounts', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:57:43 --> Undefined variable $userCounts
+in APPPATH\Controllers\AdminController.php on line 31.
+ 1 APPPATH\Controllers\AdminController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCounts', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:57:44 --> Undefined variable $userCounts
+in APPPATH\Controllers\AdminController.php on line 31.
+ 1 APPPATH\Controllers\AdminController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCounts', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:58:00 --> Array to string conversion
+in APPPATH\Views\admin\adminhome.php on line 31.
+ 1 APPPATH\Views\admin\adminhome.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(72): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:58:01 --> Array to string conversion
+in APPPATH\Views\admin\adminhome.php on line 31.
+ 1 APPPATH\Views\admin\adminhome.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(72): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:58:01 --> Array to string conversion
+in APPPATH\Views\admin\adminhome.php on line 31.
+ 1 APPPATH\Views\admin\adminhome.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(72): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:58:01 --> Array to string conversion
+in APPPATH\Views\admin\adminhome.php on line 31.
+ 1 APPPATH\Views\admin\adminhome.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(72): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:58:01 --> Array to string conversion
+in APPPATH\Views\admin\adminhome.php on line 31.
+ 1 APPPATH\Views\admin\adminhome.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(72): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:58:02 --> Array to string conversion
+in APPPATH\Views\admin\adminhome.php on line 31.
+ 1 APPPATH\Views\admin\adminhome.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(72): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:58:02 --> Array to string conversion
+in APPPATH\Views\admin\adminhome.php on line 31.
+ 1 APPPATH\Views\admin\adminhome.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(72): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:59:06 --> Undefined variable $userCounts
+in APPPATH\Controllers\AdminController.php on line 31.
+ 1 APPPATH\Controllers\AdminController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCounts', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:59:07 --> Undefined variable $userCounts
+in APPPATH\Controllers\AdminController.php on line 31.
+ 1 APPPATH\Controllers\AdminController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCounts', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:59:07 --> Undefined variable $userCounts
+in APPPATH\Controllers\AdminController.php on line 31.
+ 1 APPPATH\Controllers\AdminController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCounts', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:59:15 --> Undefined property: App\Controllers\AdminController::$userModel
+in APPPATH\Controllers\AdminController.php on line 34.
+ 1 APPPATH\Controllers\AdminController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminController::$userModel', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:59:16 --> Undefined property: App\Controllers\AdminController::$userModel
+in APPPATH\Controllers\AdminController.php on line 34.
+ 1 APPPATH\Controllers\AdminController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminController::$userModel', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:59:16 --> Undefined property: App\Controllers\AdminController::$userModel
+in APPPATH\Controllers\AdminController.php on line 34.
+ 1 APPPATH\Controllers\AdminController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminController::$userModel', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:59:16 --> Undefined property: App\Controllers\AdminController::$userModel
+in APPPATH\Controllers\AdminController.php on line 34.
+ 1 APPPATH\Controllers\AdminController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminController::$userModel', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:59:27 --> Undefined variable $years
+in APPPATH\Views\admin\adminhome.php on line 280.
+ 1 APPPATH\Views\admin\adminhome.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $years', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 280)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(72): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:59:28 --> Undefined variable $years
+in APPPATH\Views\admin\adminhome.php on line 280.
+ 1 APPPATH\Views\admin\adminhome.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $years', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 280)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(72): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:59:28 --> Undefined variable $years
+in APPPATH\Views\admin\adminhome.php on line 280.
+ 1 APPPATH\Views\admin\adminhome.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $years', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 280)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(72): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:59:28 --> Undefined variable $years
+in APPPATH\Views\admin\adminhome.php on line 280.
+ 1 APPPATH\Views\admin\adminhome.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $years', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 280)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(72): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 07:59:29 --> Undefined variable $years
+in APPPATH\Views\admin\adminhome.php on line 280.
+ 1 APPPATH\Views\admin\adminhome.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $years', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 280)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(72): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:00:33 --> syntax error, unexpected token "=", expecting "]"
+in APPPATH\Controllers\AdminController.php on line 34.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:00:34 --> syntax error, unexpected token "=", expecting "]"
+in APPPATH\Controllers\AdminController.php on line 34.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:00:34 --> syntax error, unexpected token "=", expecting "]"
+in APPPATH\Controllers\AdminController.php on line 34.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:00:34 --> syntax error, unexpected token "=", expecting "]"
+in APPPATH\Controllers\AdminController.php on line 34.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:00:35 --> syntax error, unexpected token "=", expecting "]"
+in APPPATH\Controllers\AdminController.php on line 34.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:00:57 --> Assignments can only happen to writable values
+in APPPATH\Controllers\AdminController.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-01 08:00:58 --> Assignments can only happen to writable values
+in APPPATH\Controllers\AdminController.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-01 08:00:59 --> Assignments can only happen to writable values
+in APPPATH\Controllers\AdminController.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-01 08:00:59 --> Assignments can only happen to writable values
+in APPPATH\Controllers\AdminController.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-01 08:01:08 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\AdminController.php on line 34.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:01:08 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\AdminController.php on line 34.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:01:09 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\AdminController.php on line 34.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:01:45 --> Undefined variable $years
+in APPPATH\Views\admin\adminhome.php on line 280.
+ 1 APPPATH\Views\admin\adminhome.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $years', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 280)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(72): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:01:46 --> Undefined variable $years
+in APPPATH\Views\admin\adminhome.php on line 280.
+ 1 APPPATH\Views\admin\adminhome.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $years', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 280)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(72): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:01:46 --> Undefined variable $years
+in APPPATH\Views\admin\adminhome.php on line 280.
+ 1 APPPATH\Views\admin\adminhome.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $years', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 280)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(72): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:01:46 --> Undefined variable $years
+in APPPATH\Views\admin\adminhome.php on line 280.
+ 1 APPPATH\Views\admin\adminhome.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $years', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 280)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(72): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:01:47 --> Undefined variable $years
+in APPPATH\Views\admin\adminhome.php on line 280.
+ 1 APPPATH\Views\admin\adminhome.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $years', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 280)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(72): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:01:47 --> Undefined variable $years
+in APPPATH\Views\admin\adminhome.php on line 280.
+ 1 APPPATH\Views\admin\adminhome.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $years', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 280)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(72): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:01:48 --> Undefined variable $years
+in APPPATH\Views\admin\adminhome.php on line 280.
+ 1 APPPATH\Views\admin\adminhome.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $years', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 280)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(72): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:01:48 --> Undefined variable $years
+in APPPATH\Views\admin\adminhome.php on line 280.
+ 1 APPPATH\Views\admin\adminhome.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $years', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 280)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(72): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:02:23 --> Undefined variable $years
+in APPPATH\Views\admin\adminhome.php on line 280.
+ 1 APPPATH\Views\admin\adminhome.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $years', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 280)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(72): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:02:24 --> Undefined variable $years
+in APPPATH\Views\admin\adminhome.php on line 280.
+ 1 APPPATH\Views\admin\adminhome.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $years', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 280)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(72): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:03:11 --> Undefined variable $selectedYear
+in APPPATH\Views\admin\adminhome.php on line 281.
+ 1 APPPATH\Views\admin\adminhome.php(281): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedYear', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 281)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(74): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:03:12 --> Undefined variable $selectedYear
+in APPPATH\Views\admin\adminhome.php on line 281.
+ 1 APPPATH\Views\admin\adminhome.php(281): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedYear', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 281)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(74): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:03:12 --> Undefined variable $selectedYear
+in APPPATH\Views\admin\adminhome.php on line 281.
+ 1 APPPATH\Views\admin\adminhome.php(281): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedYear', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 281)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(74): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:03:12 --> Undefined variable $selectedYear
+in APPPATH\Views\admin\adminhome.php on line 281.
+ 1 APPPATH\Views\admin\adminhome.php(281): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedYear', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 281)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(74): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:03:14 --> Undefined variable $selectedYear
+in APPPATH\Views\admin\adminhome.php on line 281.
+ 1 APPPATH\Views\admin\adminhome.php(281): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedYear', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 281)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(74): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:03:23 --> Undefined variable $selectedYear
+in APPPATH\Controllers\AdminController.php on line 30.
+ 1 APPPATH\Controllers\AdminController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedYear', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:03:23 --> Undefined variable $selectedYear
+in APPPATH\Controllers\AdminController.php on line 30.
+ 1 APPPATH\Controllers\AdminController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedYear', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:03:23 --> Undefined variable $selectedYear
+in APPPATH\Controllers\AdminController.php on line 30.
+ 1 APPPATH\Controllers\AdminController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedYear', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:03:35 --> Undefined variable $selectedYear
+in APPPATH\Controllers\AdminController.php on line 33.
+ 1 APPPATH\Controllers\AdminController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedYear', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:03:36 --> Undefined variable $selectedYear
+in APPPATH\Controllers\AdminController.php on line 33.
+ 1 APPPATH\Controllers\AdminController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedYear', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:03:36 --> Undefined variable $selectedYear
+in APPPATH\Controllers\AdminController.php on line 33.
+ 1 APPPATH\Controllers\AdminController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedYear', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:03:36 --> Undefined variable $selectedYear
+in APPPATH\Controllers\AdminController.php on line 33.
+ 1 APPPATH\Controllers\AdminController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedYear', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:03:36 --> Undefined variable $selectedYear
+in APPPATH\Controllers\AdminController.php on line 33.
+ 1 APPPATH\Controllers\AdminController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedYear', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:03:36 --> Undefined variable $selectedYear
+in APPPATH\Controllers\AdminController.php on line 33.
+ 1 APPPATH\Controllers\AdminController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedYear', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:03:37 --> Undefined variable $selectedYear
+in APPPATH\Controllers\AdminController.php on line 33.
+ 1 APPPATH\Controllers\AdminController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedYear', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\AdminController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:04:06 --> Undefined variable $userCounts
+in APPPATH\Views\admin\adminhome.php on line 31.
+ 1 APPPATH\Views\admin\adminhome.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCounts', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(75): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:04:07 --> Undefined variable $userCounts
+in APPPATH\Views\admin\adminhome.php on line 31.
+ 1 APPPATH\Views\admin\adminhome.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCounts', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(75): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:04:07 --> Undefined variable $userCounts
+in APPPATH\Views\admin\adminhome.php on line 31.
+ 1 APPPATH\Views\admin\adminhome.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCounts', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(75): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:04:08 --> Undefined variable $userCounts
+in APPPATH\Views\admin\adminhome.php on line 31.
+ 1 APPPATH\Views\admin\adminhome.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCounts', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(75): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:04:08 --> Undefined variable $userCounts
+in APPPATH\Views\admin\adminhome.php on line 31.
+ 1 APPPATH\Views\admin\adminhome.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userCounts', 'C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\projectfyp\\app\\Views\\admin\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminhome', [], true)
+ 5 APPPATH\Controllers\AdminController.php(75): view('admin/adminhome', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 08:09:58 --> Call to undefined method App\Models\UserModel::getMonthlyUserCount
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\AdminController.php(70): CodeIgniter\Model->__call('getMonthlyUserCount', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->adminhomepage()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,59 @@
+CRITICAL - 2023-10-22 11:08:13 --> Undefined variable $computerModel
+in APPPATH\Controllers\UserController.php on line 204.
+ 1 APPPATH\Controllers\UserController.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $computerModel', 'C:\\xampp\\htdocs\\projectfyp\\app\\Controllers\\UserController.php', 204)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->addprovision()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-22 11:08:38 --> mysqli_sql_exception: Column 'user_id' cannot be null in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\projectfyp\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\projectfyp\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\projectfyp\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\projectfyp\app\Controllers\UserController.php(204): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(919): App\Controllers\UserController->addprovision()
+#9 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#10 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-22 11:08:38 --> Column 'user_id' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `penyelenggaraan` (`nama_masjid`, `mukim`, `alamat`, `status_tanah`, `no_lot`, `nama_mohon_servis`, `jawatan`, `no_fon`, `acc_masjid`, `nama_bank`, `nama_acc`, `duit_pe`, `pe_status`, `user_id`, `pe_date`) VALUES (:nama_masjid:, :mukim:, :alamat:, :status_tanah:, :no_lot:, :nama_mohon_servis:, :jawatan:, :no_fon:, :acc_masjid:, :nama_bank:, :nama_acc:, :duit_pe:, :pe_status:, :user_id:, :pe_date:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\UserController.php(204): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->addprovision()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-22 11:09:14 --> mysqli_sql_exception: Column 'user_id' cannot be null in C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\projectfyp\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\projectfyp\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\projectfyp\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\projectfyp\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\projectfyp\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\projectfyp\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\projectfyp\app\Controllers\UserController.php(204): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(919): App\Controllers\UserController->addprovision()
+#9 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#10 C:\xampp\htdocs\projectfyp\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\projectfyp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-22 11:09:14 --> Column 'user_id' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `penyelenggaraan` (`nama_masjid`, `mukim`, `alamat`, `status_tanah`, `no_lot`, `nama_mohon_servis`, `jawatan`, `no_fon`, `acc_masjid`, `nama_bank`, `nama_acc`, `duit_pe`, `pe_status`, `user_id`, `pe_date`) VALUES (:nama_masjid:, :mukim:, :alamat:, :status_tanah:, :no_lot:, :nama_mohon_servis:, :jawatan:, :no_fon:, :acc_masjid:, :nama_bank:, :nama_acc:, :duit_pe:, :pe_status:, :user_id:, :pe_date:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\UserController.php(204): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->addprovision()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
